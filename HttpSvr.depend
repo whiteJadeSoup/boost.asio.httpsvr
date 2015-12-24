@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1450793603 source:/home/ezlife/Project/HttpSvr/main.cpp
+	<iostream>
+	<string>
+	<boost/asio.hpp>
+	"Server.h"
+	"Server.cpp"
+
+1450968392 /home/ezlife/Project/HttpSvr/Server.h
+	<boost/asio.hpp>
+	"connection_manager.hpp"
+	"connection_manager.cpp"
+	<string>
+
+1450968483 /home/ezlife/Project/HttpSvr/Server.cpp
+	"Server.h"
+	"connection.hpp"
+	<signal.h>
+	<utility>
+	<boost/asio.hpp>
+
+1450970438 /home/ezlife/Project/HttpSvr/connection_manager.hpp
+
+1450970434 /home/ezlife/Project/HttpSvr/connection.hpp
+	"connection_manager.cpp"
+	<boost/asio.hpp>
+
+1450970437 /home/ezlife/Project/HttpSvr/connection_manager.cpp
+	"connection.hpp"
+	<set>
+
+1450969923 /home/ezlife/Project/HttpSvr/connection.cpp
+	"connection.hpp"
+
